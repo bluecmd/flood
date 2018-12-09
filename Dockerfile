@@ -1,6 +1,4 @@
-ARG NODE_IMAGE=node:10.1-alpine
-
-FROM ${NODE_IMAGE} as nodebuild
+FROM node:10.1-alpine as nodebuild
 
 WORKDIR /usr/src/app
 
